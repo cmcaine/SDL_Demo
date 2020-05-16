@@ -92,7 +92,6 @@ function main()
         SDL.Delay(Cuint(000))
     end
 
-    # It's okay to pass these references that don't exist yet.
     SDL.DestroyTexture(background)
     SDL.DestroyTexture(image)
     SDL.DestroyRenderer(renderer)
